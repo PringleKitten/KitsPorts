@@ -1,0 +1,93 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"name": "Robro Idle"
+		},
+		{
+			"offsets": [
+				-100,
+				-50
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Robro Left"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Robro Down"
+		},
+		{
+			"offsets": [
+				-72,
+				-40
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Robro Up"
+		},
+		{
+			"offsets": [
+				-140,
+				-20
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Robro Right"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/RobroFLA",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "robro",
+	"flip_x": false,
+	"healthbar_colors": [
+		54,
+		70,
+		253
+	],
+	"camera_position": [
+		40,
+		60
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

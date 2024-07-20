@@ -1,0 +1,31 @@
+{
+	"storyName": "a...",
+	"difficulties": "Hard, Hardcore",
+	"hideFreeplay": false,
+	"weekBackground": "woods",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"songs": [
+		[
+			"little-herobrine",
+			"slender",
+			[
+				0,
+				60,
+				80
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekName": "Week 1"
+}

@@ -1,0 +1,109 @@
+{
+	"song": {
+		"speed": 2.5,
+		"stage": "Pool",
+		"player1": "bf",
+		"player2": "robro",
+		"player3": null,
+		"events": [
+			[
+				103058.823529412,
+				[
+					[
+						"Camera Zoom",
+						"0.675",
+						""
+					]
+				]
+			],
+			[
+				104470.588235294,
+				[
+					[
+						"Camera Zoom",
+						"0.7",
+						""
+					]
+				]
+			],
+			[
+				105882.352941176,
+				[
+					[
+						"Camera Zoom",
+						"0.725",
+						""
+					]
+				]
+			],
+			[
+				107294.117647059,
+				[
+					[
+						"Camera Zoom",
+						"0.75",
+						""
+					]
+				]
+			],
+			[
+				108705.882352941,
+				[
+					[
+						"Camera Zoom",
+						"0.775",
+						""
+					]
+				]
+			],
+			[
+				110117.647058823,
+				[
+					[
+						"Camera Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				111529.411764706,
+				[
+					[
+						"Camera Zoom",
+						"0.825",
+						""
+					]
+				]
+			],
+			[
+				112941.176470588,
+				[
+					[
+						"Camera Zoom",
+						"0.85",
+						""
+					]
+				]
+			],
+			[
+				114705.882352941,
+				[
+					[
+						"Camera Zoom",
+						"0.65",
+						""
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf",
+		"bpm": 170,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Scratch"
+	}
+}
