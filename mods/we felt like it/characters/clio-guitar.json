@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-6
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "guitar left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				30,
+				-70
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "guitar down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				67,
+				30
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "guitar up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				18,
+				-9
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "guitar right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "guitar idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/ClioGuitar",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "clio",
+	"flip_x": false,
+	"healthbar_colors": [
+		60,
+		47,
+		147
+	],
+	"camera_position": [
+		0,
+		-100
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

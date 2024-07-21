@@ -1,0 +1,321 @@
+{
+	"song": {
+		"events": [
+			[
+				2000,
+				[
+					[
+						"Set Property",
+						"dadGroup.alpha",
+						"1"
+					]
+				]
+			],
+			[
+				13071.4285714286,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"entitystartrunanim"
+					],
+					[
+						"Play Animation",
+						"run",
+						"Dad"
+					],
+					[
+						"Hud Fade",
+						"1",
+						"0.5"
+					],
+					[
+						"Notes Fade",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				13714.2857142857,
+				[
+					[
+						"Screen Flash",
+						"black",
+						"1"
+					],
+					[
+						"Change Character",
+						"1",
+						"entity"
+					],
+					[
+						"Set Property",
+						"hall.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"lights.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"pillar.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"markBody.alpha",
+						"1"
+					],
+					[
+						"Set Property",
+						"boyfriendGroup.alpha",
+						"1"
+					]
+				]
+			],
+			[
+				29785.7142857143,
+				[
+					[
+						"Cinematic Bars",
+						"1",
+						"450"
+					],
+					[
+						"Set Default Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				32571.4285714286,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				44571.4285714286,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				58285.7142857143,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				71142.8571428572,
+				[
+					[
+						"Set Default Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				72000,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				94285.7142857143,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				99428.5714285714,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.8",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"-0.03",
+						"-0.03"
+					],
+					[
+						"Screen Flash",
+						"white",
+						"1"
+					],
+					[
+						"Hud Fade",
+						"0",
+						"0.5"
+					],
+					[
+						"Notes Fade",
+						"0",
+						"0.5"
+					]
+				]
+			],
+			[
+				106714.285714286,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.85",
+						""
+					],
+					[
+						"Notes Fade",
+						"1",
+						"0.5"
+					]
+				]
+			],
+			[
+				113142.857142857,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				126857.142857143,
+				[
+					[
+						"Set Default Cam Zoom",
+						"1.1",
+						""
+					],
+					[
+						"Hud Fade",
+						"1",
+						"0.3"
+					],
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				136714.285714286,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				143142.857142857,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				150000,
+				[
+					[
+						"Alternate Attack",
+						"",
+						""
+					]
+				]
+			],
+			[
+				153642.857142857,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.9",
+						""
+					],
+					[
+						"Cinematic Bars",
+						"99",
+						"450"
+					],
+					[
+						"Hud Fade",
+						"0",
+						"0.2"
+					]
+				]
+			],
+			[
+				154285.714285714,
+				[
+					[
+						"Set Default Cam Zoom",
+						"0.85",
+						""
+					],
+					[
+						"Add Camera Zoom",
+						"-0.03",
+						"-0.03"
+					]
+				]
+			],
+			[
+				154607.142857143,
+				[
+					[
+						"Add Camera Zoom",
+						"-0.06",
+						"-0.06"
+					],
+					[
+						"Notes Fade",
+						"0",
+						"0.5"
+					]
+				]
+			]
+		]
+	}
+}

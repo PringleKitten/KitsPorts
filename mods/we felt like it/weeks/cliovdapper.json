@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["simply better than you", "clio", [60,	47, 147]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "#CLIOSWEEP",
+	"weekBefore": "2032",
+	"weekName": "cliovdapper",
+	"difficulties": "virgin",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-490,
+				-10
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-490,
+				-10
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-485,
+				-10
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-500,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-490,
+				-10
+			],
+			"anim": "singLEFTmiss",
+			"fps": 24,
+			"name": "left miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-490,
+				-10
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "miss down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-485,
+				-10
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "up miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-500,
+				0
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 24,
+			"name": "right miss0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				840,
+				10
+			],
+			"anim": "shooting",
+			"fps": 24,
+			"name": "shooting0",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-300,
+				60
+			],
+			"anim": "deathLoop",
+			"fps": 24,
+			"name": "dead loop0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-341,
+				6
+			],
+			"anim": "deathConfirm",
+			"fps": 24,
+			"name": "dead confirm0",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mark",
+	"position": [
+		200,
+		280
+	],
+	"healthicon": "mark",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		49,
+		49
+	],
+	"camera_position": [
+		-500,
+		-240
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

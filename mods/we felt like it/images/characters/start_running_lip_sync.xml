@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="start_running_lip_sync.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="start running instance 10000" x="16" y="16" width="617" height="708" frameX="-10" frameY="-20" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10001" x="16" y="16" width="617" height="708" frameX="-10" frameY="-20" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10002" x="646" y="16" width="613" height="707" frameX="-11" frameY="-21" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10003" x="1272" y="16" width="619" height="703" frameX="-11" frameY="-25" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10004" x="1904" y="16" width="620" height="701" frameX="-11" frameY="-27" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10005" x="2537" y="16" width="620" height="703" frameX="-11" frameY="-25" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10006" x="3170" y="16" width="621" height="702" frameX="-10" frameY="-26" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10007" x="16" y="737" width="611" height="718" frameX="-9" frameY="-11" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10008" x="640" y="737" width="610" height="720" frameX="-8" frameY="-9" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10009" x="1263" y="737" width="610" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10010" x="1886" y="737" width="610" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10011" x="2509" y="737" width="610" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10012" x="2509" y="737" width="610" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10013" x="3132" y="737" width="611" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10014" x="3132" y="737" width="611" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10015" x="3132" y="737" width="611" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10016" x="16" y="1471" width="617" height="721" frameX="-8" frameY="-8" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10017" x="646" y="1471" width="609" height="735" frameX="-5" frameY="0" frameWidth="636" frameHeight="735"/>
+	<SubTexture name="start running instance 10018" x="1268" y="1471" width="636" height="723" frameX="0" frameY="-12" frameWidth="636" frameHeight="735"/>
+</TextureAtlas>

@@ -1,0 +1,45 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				5,
+				5
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "start running instance 1",
+			"indices": []
+		},
+		{
+			"offsets": [
+				5,
+				5
+			],
+			"loop": false,
+			"anim": "run",
+			"fps": 24,
+			"name": "start running instance 1",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/start_running_lip_sync",
+	"position": [
+		-30,
+		180
+	],
+	"healthicon": "entity",
+	"flip_x": false,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		-80,
+		-280
+	],
+	"sing_duration": 6.1,
+	"scale": 1.3
+}

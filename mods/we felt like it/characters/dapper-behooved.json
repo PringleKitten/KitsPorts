@@ -1,0 +1,34 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				37,
+				-33
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Behooved",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/dapper_sprites",
+	"position": [
+		100,
+		0
+	],
+	"healthicon": "dapper",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		107,
+		62
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

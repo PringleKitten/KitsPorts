@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Run For Your Life", "entity", [44, 44, 44]]
+	],
+
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "YOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDEYOUCANTRUNYOUCANTHIDE",
+	"weekBefore": "tutorial",
+	"weekName": "backrooms",
+	"difficulties": "smile",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

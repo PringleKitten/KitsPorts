@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="im_sorry_for_torturing_you_tormented.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="closes0000" x="16" y="16" width="563" height="324"/>
+	<SubTexture name="closes0001" x="16" y="16" width="563" height="324"/>
+	<SubTexture name="closes0002" x="16" y="16" width="563" height="324"/>
+	<SubTexture name="closes0003" x="592" y="16" width="563" height="324"/>
+	<SubTexture name="closes0004" x="592" y="16" width="563" height="324"/>
+	<SubTexture name="closes0005" x="1168" y="16" width="563" height="314" frameX="0" frameY="-5" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0006" x="1168" y="16" width="563" height="314" frameX="0" frameY="-5" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0007" x="1744" y="16" width="563" height="298" frameX="0" frameY="-13" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0008" x="2320" y="16" width="563" height="83" frameX="0" frameY="-120" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0009" x="1168" y="690" width="563" height="16" frameX="0" frameY="-154" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0010" x="1168" y="690" width="563" height="16" frameX="0" frameY="-154" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="closes0011" x="592" y="690" width="563" height="11" frameX="0" frameY="-156" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="funny0000" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0001" x="2896" y="16" width="563" height="324"/>
+	<SubTexture name="funny0002" x="2896" y="16" width="563" height="324"/>
+	<SubTexture name="funny0003" x="3472" y="16" width="563" height="324"/>
+	<SubTexture name="funny0004" x="16" y="353" width="563" height="324"/>
+	<SubTexture name="funny0005" x="592" y="353" width="563" height="324"/>
+	<SubTexture name="funny0006" x="1168" y="353" width="563" height="324"/>
+	<SubTexture name="funny0007" x="1744" y="353" width="563" height="324"/>
+	<SubTexture name="funny0008" x="2320" y="353" width="563" height="324"/>
+	<SubTexture name="funny0009" x="2896" y="353" width="563" height="324"/>
+	<SubTexture name="funny0010" x="3472" y="353" width="563" height="324"/>
+	<SubTexture name="funny0011" x="16" y="690" width="563" height="324"/>
+	<SubTexture name="funny0012" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0013" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0014" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0015" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0016" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0017" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0018" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0019" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0020" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0021" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0022" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0023" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0024" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0025" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0026" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0027" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0028" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0029" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0030" x="2896" y="16" width="563" height="324"/>
+	<SubTexture name="funny0031" x="2896" y="16" width="563" height="324"/>
+	<SubTexture name="funny0032" x="3472" y="16" width="563" height="324"/>
+	<SubTexture name="funny0033" x="16" y="353" width="563" height="324"/>
+	<SubTexture name="funny0034" x="592" y="353" width="563" height="324"/>
+	<SubTexture name="funny0035" x="1168" y="353" width="563" height="324"/>
+	<SubTexture name="funny0036" x="1744" y="353" width="563" height="324"/>
+	<SubTexture name="funny0037" x="2320" y="353" width="563" height="324"/>
+	<SubTexture name="funny0038" x="2896" y="353" width="563" height="324"/>
+	<SubTexture name="funny0039" x="3472" y="353" width="563" height="324"/>
+	<SubTexture name="funny0040" x="16" y="690" width="563" height="324"/>
+	<SubTexture name="funny0041" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0042" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0043" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0044" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0045" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0046" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0047" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0048" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0049" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0050" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0051" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0052" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0053" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0054" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0055" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="funny0056" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="funny0057" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="open text0000" x="592" y="690" width="563" height="11" frameX="0" frameY="-156" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0001" x="592" y="690" width="563" height="11" frameX="0" frameY="-156" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0002" x="1168" y="690" width="563" height="16" frameX="0" frameY="-154" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0003" x="1168" y="690" width="563" height="16" frameX="0" frameY="-154" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0004" x="1744" y="690" width="563" height="83" frameX="0" frameY="-120" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0005" x="2320" y="690" width="563" height="298" frameX="0" frameY="-13" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0006" x="2896" y="690" width="563" height="314" frameX="0" frameY="-5" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0007" x="2896" y="690" width="563" height="314" frameX="0" frameY="-5" frameWidth="563" frameHeight="324"/>
+	<SubTexture name="open text0008" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="open text0009" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="open text0010" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="open text0011" x="16" y="1027" width="563" height="324"/>
+	<SubTexture name="open text0012" x="3472" y="690" width="563" height="324"/>
+	<SubTexture name="open text0013" x="3472" y="690" width="563" height="324"/>
+</TextureAtlas>
