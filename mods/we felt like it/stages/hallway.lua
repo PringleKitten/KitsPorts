@@ -174,35 +174,45 @@ function onStepHit()
     elseif curStep == 300 then
         removeLuaSprite('bars')
     elseif curStep == 928 then
-        doTweenAlpha("cH", "camHUD", 0, 0.6, "linear")
+        noteTweenAlpha("o1",0,0,0.4,"linear");
+        noteTweenAlpha("o2",1,0,0.4,"linear");
+        noteTweenAlpha("o3",2,0,0.4,"linear");
+        noteTweenAlpha("o4",3,0,0.4,"linear");
+        noteTweenAlpha("o5",4,0,0.4,"linear");
+        noteTweenAlpha("o6",5,0,0.4,"linear");
+        noteTweenAlpha("o7",6,0,0.4,"linear");
+        noteTweenAlpha("o8",7,0,0.4,"linear");
+        doTweenAlpha('1aa','healthBar', 0, 0.4,'linear');
+		doTweenAlpha('1ab','healthBarBG', 0, 0.4,'linear');
+		doTweenAlpha('1ac','iconP1', 0, 0.4,'linear');
+		doTweenAlpha('1ad','iconP2', 0, 0.4,'linear');
+		doTweenAlpha('1ae','scoreTxt', 0, 0.4,'linear');
+		doTweenAlpha('1af','timeBar', 0, 0.4,'linear');
+		doTweenAlpha('1ag','timeTxt', 0, 0.4,'linear');
+        doTweenAlpha('2aa','timeBar', 0,0.4,'linear');
+        doTweenAlpha('2ab','timeBarBG', 0,0.4,'linear');
+        doTweenAlpha('2ac','timeTxt',0,0.4,'linear');
         cameraFlash('game','0xFFFFFF',0.5,true)
     elseif curStep == 996 then
-        setProperty('camHUD.alpha',1)
-        setProperty('playerStrums.alpha',0)
-        setProperty('opponentStrums.alpha',0)
-        setProperty('healthBar.alpha', 0);
-		setProperty('healthBarBG.alpha', 0);
-		setProperty('iconP1.alpha', 0);
-		setProperty('iconP2.alpha', 0);
-		setProperty('scoreTxt.alpha', 0);
-		setProperty('timeBar.alpha', 0);
-		setProperty('timeTxt.alpha', 0);
-		setProperty('timeBar.alpha', 0)
-		setProperty('timeBarBG.alpha', 0)
-		setProperty('timeTxt.alpha', 0)
-        doTweenAlpha('pS','playerStrums', 1, 0.2,'linear')
-        doTweenAlpha('pS','opponentStrums', 1, 0.2,'linear')
+        noteTweenAlpha("o1",0,1,0.4,"linear");
+        noteTweenAlpha("o2",1,1,0.4,"linear");
+        noteTweenAlpha("o3",2,1,0.4,"linear");
+        noteTweenAlpha("o4",3,1,0.4,"linear");
+        noteTweenAlpha("o5",4,1,0.4,"linear");
+        noteTweenAlpha("o6",5,1,0.4,"linear");
+        noteTweenAlpha("o7",6,1,0.4,"linear");
+        noteTweenAlpha("o8",7,1,0.4,"linear");
     elseif curStep == 1184 then
-        doTweenAlpha('1aa','healthBar', 1, 0.4);
-		doTweenAlpha('1ab','healthBarBG', 1, 0.4);
-		doTweenAlpha('1ac','iconP1', 1, 0.4);
-		doTweenAlpha('1ad','iconP2', 1, 0.4);
-		doTweenAlpha('1ae','scoreTxt', 1, 0.4);
-		doTweenAlpha('1af','timeBar', 1, 0.4);
-		doTweenAlpha('1ag','timeTxt', 1, 0.4);
-        doTweenAlpha('2aa','timeBar', 1,0.4)
-        doTweenAlpha('2ab','timeBarBG', 1,0.4)
-        doTweenAlpha('2ac','timeTxt', 1,0.4)
+        doTweenAlpha('1aa','healthBar', 1, 0.4,'linear');
+		doTweenAlpha('1ab','healthBarBG', 1, 0.4,'linear');
+		doTweenAlpha('1ac','iconP1', 1, 0.4,'linear');
+		doTweenAlpha('1ad','iconP2', 1, 0.4,'linear');
+		doTweenAlpha('1ae','scoreTxt', 1, 0.4,'linear');
+		doTweenAlpha('1af','timeBar', 1, 0.4,'linear');
+		doTweenAlpha('1ag','timeTxt', 1, 0.4,'linear');
+        doTweenAlpha('2aa','timeBar', 1,0.4,'linear')
+        doTweenAlpha('2ab','timeBarBG', 1,0.4,'linear')
+        doTweenAlpha('2ac','timeTxt', 1,0.4,'linear')
     end
 end
 
