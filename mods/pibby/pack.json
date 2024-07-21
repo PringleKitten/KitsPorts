@@ -1,6 +1,7 @@
 {
-	"name": "Name",
-	"description": "Description",
+	"name": "Pibby Mod only one song",
+	"description": "Portable Mod Port by PringleKitten",
 	"restart":false,
-	"color": [170, 0, 255]
+	"runsGlobally": false,
+	"color": [251, 77, 155]
 }
