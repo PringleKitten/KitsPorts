@@ -1,5 +1,6 @@
-pibby|0
-main|0
-herobrine|0
-catboy|0
+BopCity|1
+catboy|1
+herobrine|1
+main|1
+pibby|1
 we felt like it|1

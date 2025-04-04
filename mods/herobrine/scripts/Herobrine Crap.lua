@@ -1,10 +1,10 @@
 function onCreate()
     if difficultyName == "Hardcore" then
-        setPropertyFromClass('ClientPrefs', 'middleScroll', true)
-        setPropertyFromClass('ClientPrefs', 'opponentStrums', false)
+        setPropertyFromClass('backend.ClientPrefs', 'data.middleScroll', true)
+        setPropertyFromClass('backend.ClientPrefs', 'data.opponentStrums', false)
     elseif difficultyName == "Hard" then
-        setPropertyFromClass('ClientPrefs', 'middleScroll', false)
-        setPropertyFromClass('ClientPrefs', 'opponentStrums', true)
+        setPropertyFromClass('backend.ClientPrefs', 'data.middleScroll', false)
+        setPropertyFromClass('backend.ClientPrefs', 'data.opponentStrums', true)
     end
 end
 function opponentNoteHit(noteData, noteType, isSustainNote)

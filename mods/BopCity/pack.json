@@ -1,0 +1,8 @@
+{
+	"name": "Bop City",
+	"description": "Made By: Daniel H, Ported by PringleKitten",
+	"restart":false,
+	"runsGlobally": false,
+	"color": [170, 0, 255],
+	"iconFramerate": 10
+}
