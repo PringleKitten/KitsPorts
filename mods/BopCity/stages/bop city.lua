@@ -1,4 +1,6 @@
 function onCreate()
+    setPropertyFromClass('substates.GameOverSubstate', 'characterName', 'bf-full-invis');
+    setPropertyFromClass('substates.GameOverSubstate', 'loopSoundName', 'nothing');
     setProperty('defaultCamZoom', 0.58)
     setProperty('camGame.zoom', 0.58)
     

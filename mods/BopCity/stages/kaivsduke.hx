@@ -139,15 +139,21 @@ function onEvent(ev) {
                 lockT = true;
                 time = Conductor.songPosition;
                 jumpSound.play();
-                jump.visible = true;
 
                 FlxG.sound.music.onComplete = ()->{};
                 FlxG.resizeWindow(FlxG.stage.fullScreenWidth,FlxG.stage.fullScreenHeight);
                 FlxG.stage.window.x = 0;
                 FlxG.stage.window.y = 0;
 
+                camHUD.visible = false;
+                camGame.visible = false;
+
             case 'mute':
-                FlxG.sound.music.volume = 0;
+                if(FlxG.sound.music != null) {
+                    FlxG.sound.music.pause();
+                    vocals.pause();
+                    opponentVocals.pause();
+                }
             case 'bg':
 
                 game.iconP1.visible = false;

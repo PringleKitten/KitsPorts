@@ -3,6 +3,7 @@ import flixel.FlxG;
 
 var fanumTaxed = false;
 var fanumTaxing = false;
+var ddgg;
 function onCreate() {
     Paths.sound("fanumtax");
     Paths.image("tax");
@@ -13,29 +14,55 @@ function onCreate() {
     fanumWarning.screenCenter('y');
     fanumWarning.alpha = 0;
     add(fanumWarning);
+
+    if (buildTarget == "android") {
+        ddgg = new FlxSprite().loadGraphic(Paths.image('sbutton'));
+        add(ddgg);
+        ddgg.x = -190;
+        ddgg.y = 400;
+        ddgg.cameras = [camOther];
+        ddgg.scale.set(0.25,0.25);
+    }
 }
+
+function noFanum() {
+    dad.animation.finishCallback = null;
+    dad.animation.stop();
+    dad.playAnim("ouch",true);
+
+    boyfriend.animation.stop();
+    boyfriend.playAnim("smack",true);
+    boyfriend.specialAnim = true;
+    boyfriend.animation.finishCallback = (s:String)->{if (s == 'smack') {boyfriend.specialAnim=false;}}
+
+    FlxG.sound.play(Paths.sound("slap"));
+    dad.specialAnim = false;
+    fanumTaxing = false;
+    FlxFlicker.stopFlickering(fanumWarning);
+    fanumWarning.alpha = 0;
+    taxSound.stop();
+    game.canPause = true;
+}
+
+function mouseOverlaps(obj, camera:FlxCamera = game.camHUD):Bool {
+    if (obj == null || camera == null) return;
+    var mX = FlxG.mouse.getScreenPosition(camera).x + camera.scroll.x;
+    var mY = FlxG.mouse.getScreenPosition(camera).y + camera.scroll.y;
+    var x = obj.x;
+    var y = obj.y;
+    var width = obj.width;
+    var height = obj.height;
+    return (mX > x) && (mX < x + width) && (mY > y) && (mY < y + height);
+}
+
 function onUpdate() {
     if (game.songName == "fanum-tax" && fanumTaxing && FlxG.keys.justPressed.SPACE)
-    {    
-        dad.animation.finishCallback = null;
-        dad.animation.stop();
-        dad.playAnim("ouch",true);
-    
-        boyfriend.animation.stop();
-        boyfriend.playAnim("smack",true);
-        boyfriend.specialAnim = true;
-        boyfriend.animation.finishCallback = (s:String)->{if (s == 'smack') {boyfriend.specialAnim=false;}}
+        noFanum();
 
-        FlxG.sound.play(Paths.sound("slap"));
-        dad.specialAnim = false;
-        fanumTaxing = false;
-        FlxFlicker.stopFlickering(fanumWarning);
-        fanumWarning.alpha = 0;
-        taxSound.stop();
-        game.canPause = true;
-    }
+    if (buildTarget == "android" && (game.songName == "fanum-tax" && fanumTaxing && (mouseOverlaps(ddgg, game.camOther) && FlxG.mouse.justPressed)))
+        noFanum();
 
-    if (game.songName == "fanum-tax") {
+        if (game.songName == "fanum-tax") {
         dad.animation.finishCallback = function(name) {
             switch(name)
             {
