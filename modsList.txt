@@ -1,6 +1,9 @@
+IFEModR2.0|1
+IFEModR1.2|0
+ife stuff|0
+unused|0
+herobrine|0
+catboy|0
+we felt like it|0
+pibby|0
 BopCity|1
-catboy|1
-herobrine|1
-main|1
-pibby|1
-we felt like it|1
