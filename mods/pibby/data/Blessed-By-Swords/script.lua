@@ -8,7 +8,7 @@ function onSongStart()
     doTweenAlpha('light', 'light', 0, 0.25, 'bounceInOut')
 end
    function onUpdate(elapsed)
-    local songPos = getPropertyFromClass('Conductor', 'songPosition') / 300 * 1
+    local songPos = getPropertyFromClass('backend.Conductor', 'songPosition') / 300 * 1
     
     setProperty('light.angle', math.sin(songPos)*5)
     setProperty('dark.angle', math.sin(songPos)*5)

@@ -1,5 +1,6 @@
 function onCreate()
 	makeLuaSprite('bg', 'finn/bg', 900, 525);
+	setProperty('defaultCamZoom', 0.9)
 	scaleObject('bg', 1.3, 1.3);
 
 	addLuaSprite('bg', false);

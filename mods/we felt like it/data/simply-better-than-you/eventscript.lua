@@ -1,6 +1,7 @@
 function onCreate()
     makeLuaSprite('bars', 'background/hallway/bars', 0,0)
-    setObjectCamera('bars', 'game')
+    setObjectCamera('bars', 'hud')
+    setObjectOrder("bars", 0)
     scaleObject("bars", 1, 10)
     screenCenter("bars")
     addLuaSprite('bars', true)

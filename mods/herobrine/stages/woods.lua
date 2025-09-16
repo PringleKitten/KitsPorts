@@ -1,4 +1,5 @@
 function onCreate()
+    setProperty('defaultCamZoom', 0.7)
 	makeLuaSprite('sky', 'background/woods/sky');
     scaleObject('sky', 1.5, 1.5);
     setScrollFactor('sky', 0, 0);

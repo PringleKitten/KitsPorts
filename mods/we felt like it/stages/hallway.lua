@@ -1,4 +1,5 @@
 function onCreate()
+    setProperty('defaultCamZoom', 0.75)
     setProperty('skipCountdown', true)
 	makeLuaSprite('backrooms', 'background/hallway/backrooms');
     scaleObject("backrooms", 1, 1)
@@ -67,11 +68,12 @@ function onCreate()
     screenCenter("bars")
     addLuaSprite('bars', true)
     setProperty('bars.alpha',0)
-    
-    makeLuaSprite('button', 'background/hallway/button',0,580)
-    setObjectCamera("button", 'other')
-    scaleObject("button", 0.7, 0.7)
-    addLuaSprite("button",true)
+    if buildTarget == 'android' then
+        makeLuaSprite('button', 'background/hallway/button',0,580)
+        setObjectCamera("button", 'other')
+        scaleObject("button", 0.7, 0.7)
+        addLuaSprite("button",true)
+    end
 
     setProperty('camHUD.alpha', 1)
     setProperty('dad.alpha', 1)
@@ -126,9 +128,11 @@ function onStepHit()
         scaleObject("howto", 2.2, 2)
         screenCenter("howto",'x')
         addLuaText("howto")
-        makeLuaText('howtos', 'PRESS S BUTTON FOR MOBILE', 300, -50, 550)
-        scaleObject('howtos', 1.5,1.5)
-        addLuaText("howtos")
+        if buildTarget == 'android' then
+            makeLuaText('howtos', 'PRESS S BUTTON FOR MOBILE', 300, -50, 550)
+            scaleObject('howtos', 1.5,1.5)
+            addLuaText("howtos")
+        end
         doTweenAlpha("cH", "camHUD", 1, 0.6, "linear")
         doTweenAlpha("dad", "dad", 1, 0.6, "linear")
         doTweenAlpha("bf", "boyfriend", 1, 0.6, "linear")

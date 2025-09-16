@@ -29,12 +29,12 @@ function onCreate()
     setBlendMode('overlay', 'add')
 end
 
-function onCreatePost()
+function onCountdownStarted()
     doTweenAngle('memespin', 'memes', 50000, 1000, 'linear')
     setProperty('scoreTxt.visible', false)
 
-    for i = 0, 3 do
-        setPropertyFromGroup('strumLineNotes', i, 'x', -330)
+    for i = 0,3 do
+        setPropertyFromGroup('opponentStrums',i,'x',-330)
     end
 
 end
@@ -89,7 +89,6 @@ function onTweenCompleted(tag)
     end
 end
 function onEvent(event)
-    debugPrint(event)
     if event == 'cutscene' then
         startVideo('kaisupercutscene', false, true)
         setObjectCamera('videoCutscene', 'game')

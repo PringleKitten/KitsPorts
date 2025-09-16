@@ -21,17 +21,19 @@ function mouseOverlaps(tag, camera)
     x = getMouseX(camera or 'camHUD')
     y = getMouseY(camera or 'camHUD')
     return (x > getProperty(tag..'.x') and y > getProperty(tag..'.y') and x < (getProperty(tag..'.x') + getProperty(tag..'.width')) and y < (getProperty(tag..'.y') + getProperty(tag..'.height')))
-  end
+end
 function onUpdate()
-    if mouseOverlaps('button', 'camOther') and mouseClicked("left") then
-        buttonLOL = true
-    else
-        buttonLOL = false
+    if buildTarget == 'android' then
+        if mouseOverlaps('button', 'camOther') and mouseClicked("left") then
+            buttonLOL = true
+        else
+            buttonLOL = false
+        end
     end
     setShaderFloat("filmGrain", "iTime", os.clock())
     setShaderFloat("filmGrain", "strength", 10)
     if curBeat > 31 then
-    if keyJustPressed('space') or buttonLOL then
+    if keyboardJustPressed('SPACE') or buttonLOL then
         if SHOOT then
             cancelTween('smilerX')
             cancelTween('entityX')
@@ -40,7 +42,7 @@ function onUpdate()
             doTweenX('entityXback', 'dad', 1300, 0.4, 'expoIn')
         end
         playSound('gunshotmark')
-        characterPlayAnim("boyfriend", "shooting", true)
+        playAnim("boyfriend", "shooting", true)
         hp = getProperty('health')
         newh = hp-str
         SHOOT = false
