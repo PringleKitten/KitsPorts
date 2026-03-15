@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Menu_Whitty.png">
+	<SubTexture name="M Whitty Idle0000" x="5" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0001" x="5" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0002" x="438" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0003" x="438" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0004" x="871" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0005" x="871" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0006" x="1304" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0007" x="1304" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0008" x="1737" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0009" x="1737" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0010" x="5" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0011" x="5" y="5" width="423" height="763"/>
+	<SubTexture name="M Whitty Idle0012" x="5" y="5" width="423" height="763"/>
+</TextureAtlas>

@@ -1,0 +1,159 @@
+{
+	"animations": [
+		{
+			"offsets": [-5, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "BF idle dance0"
+		},
+		{
+			"offsets": [5, -6],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "BF NOTE LEFT0"
+		},
+		{
+			"offsets": [-20, -51],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "BF NOTE DOWN0"
+		},
+		{
+			"offsets": [-46, 27],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "BF NOTE UP0"
+		},
+		{
+			"offsets": [-48, -7],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "BF NOTE RIGHT0"
+		},
+		{
+			"offsets": [7, 19],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "BF NOTE LEFT MISS0"
+		},
+		{
+			"offsets": [-15, -19],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "BF NOTE DOWN MISS0"
+		},
+		{
+			"offsets": [-46, 27],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "BF NOTE UP MISS0"
+		},
+		{
+			"offsets": [-44, 22],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "BF NOTE RIGHT MISS0"
+		},
+		{
+			"offsets": [-5, 0],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle-alt",
+			"loop": false,
+			"name": "BF idle dance edgy"
+		},
+		{
+			"offsets": [5, -6],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "BF NOTE LEFT edgy"
+		},
+		{
+			"offsets": [-20, -51],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "BF NOTE DOWN edgy"
+		},
+		{
+			"offsets": [-46, 27],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "BF NOTE UP edgy"
+		},
+		{
+			"offsets": [-48, -7],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "BF NOTE RIGHT edgy"
+		},
+		{
+			"offsets": [7, 19],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFTmiss-alt",
+			"loop": false,
+			"name": "BF NOTE LEFT MISS edgy"
+		},
+		{
+			"offsets": [-15, -19],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWNmiss-alt",
+			"loop": false,
+			"name": "BF NOTE DOWN MISS edgy"
+		},
+		{
+			"offsets": [-46, 27],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUPmiss-alt",
+			"loop": false,
+			"name": "BF NOTE UP MISS edgy"
+		},
+		{
+			"offsets": [-44, 22],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss-alt",
+			"loop": false,
+			"name": "BF NOTE RIGHT MISS edgy"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/bf_assets",
+	"position": [0, 350],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [49, 176, 209],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

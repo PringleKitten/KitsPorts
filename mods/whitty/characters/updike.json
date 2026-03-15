@@ -1,0 +1,95 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "idle",
+			"fps": 24,
+			"name": "updingdong idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, 0],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "updingdong left note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, -1],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "updingdong down note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [1, -1],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "updingdong up note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "updingdong right note0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "updingdong idle edgy",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-1, 0],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "updingdong left note edgy",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, -1],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "updingdong down note edgy",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [1, -1],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "updingdong up note edgy",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [0, 0],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "updingdong right note edgy",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/updike_assets",
+	"position": [-100, 10],
+	"healthicon": "updike",
+	"flip_x": false,
+	"healthbar_colors": [225, 225, 225],
+	"camera_position": [-30, -20],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

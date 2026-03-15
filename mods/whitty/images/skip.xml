@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="skip.png">
+<SubTexture name="hold0000" x="0" y="0" width="28" height="23" frameX="-40" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0001" x="28" y="0" width="40" height="41" frameX="-40" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0002" x="68" y="0" width="40" height="68" frameX="-40" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0003" x="0" y="68" width="40" height="80" frameX="-40" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0004" x="40" y="68" width="68" height="80" frameX="-12" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0005" x="108" y="68" width="80" height="80" frameX="0" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0006" x="0" y="148" width="80" height="80" frameX="0" frameY="0" frameWidth="80" frameHeight="80" />
+<SubTexture name="hold0007" x="80" y="148" width="80" height="80" frameX="0" frameY="0" frameWidth="80" frameHeight="80" />
+</TextureAtlas>

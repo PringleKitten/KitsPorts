@@ -1,0 +1,9 @@
+{
+	"idle_anim": "M Whitty Idle",
+	"image": "Menu_Whitty",
+	"position": [150, 200],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.45,
+	"confirm_anim": "M Whitty Idle"
+}
